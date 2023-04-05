@@ -1,6 +1,6 @@
 
 #Library import
-import paho.mqtt.client as paho  		                             #Import of paho-mqtt library
+import paho.mqtt.client as paho  		                 #Import of paho-mqtt library
 import time                                                      #Import of time library
 import random as rnd                                             #Import of random library
  
@@ -41,8 +41,8 @@ def get_payload():                                               #Generate the p
 ACCESS_TOKEN1='m4tTwRDNRpt3tWy7yokT'                             #AccessToken of Virtual Environment Station 1 in ThingsBoard
 ACCESS_TOKEN2='j2QZULfsKWRMIlVsO9Ni'                             #AccessToken of Virtual Environment Station 2 in ThingsBoard
     
-broker="demo.thingsboard.io"   			                             #Host Name
-port=1883                                                        #Data Listening port
+broker="demo.thingsboard.io"   			                 #Host Name
+port=1883 					                 #Data Listening port
 
 client1= paho.Client("control1")                                 #Create client1 object
 client1.on_publish = on_publish                                  #Assign function to callback of client1
@@ -64,3 +64,4 @@ while True:
     print(payload1);
     print(payload2);
     time.sleep(5)                                                        #Wait 5 second to resend another payload to the devices
+   

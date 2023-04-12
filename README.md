@@ -1,4 +1,4 @@
-# IoT-Assignment-2
+# IoT-assignment-2
 assignment 2
 
 

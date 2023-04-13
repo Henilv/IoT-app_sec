@@ -1,5 +1,8 @@
 # IoT-assignment-2
-assignment 2
+Assignment 2: IoT : Application Security
+
+Here the goal is to create a sort of weather station that deploys various readings of sensors based on its selection.
+It is part of the course application project for MS in Cybersecurity at Syracuse University.
 
 
 Using a python scrypt we simulate data sensors and we send them in JSON format to Thingsboard. The script is available on github

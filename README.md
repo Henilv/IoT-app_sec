@@ -1,5 +1,4 @@
-# IoT
-: IoT : Application Security
+# IoT: Application Security
 
 Here the goal is to create a sort of weather station that deploys various readings of sensors based on its selection and then deployed sensors through edge have vectors which need to be secured.
 

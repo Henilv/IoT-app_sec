@@ -15,3 +15,5 @@ start the connection between the client and our broker using host:"demo.thingsbo
 bash script: curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d 
 
 Check for import libs and import necessary libs.
+
+Payload is arbitary data with specific contents of the packages in JSON which is sent via terminal

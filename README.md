@@ -1,19 +1,8 @@
 # IoT: Application Security
 
-Here the goal is to create a sort of weather station that deploys various readings of sensors based on its selection and then deployed sensors through edge have vectors which need to be secured. Layered security from edge to processing to map the vectors that need security.
-
-It is part of the course application project for MS in Cybersecurity at Syracuse University.
-
-
-Using a python scrypt we simulate data sensors and we send them in JSON format to Thingsboard. The script is available on github
-Before running the script, we need to download the library with this command: 
-
-npm install mqtt --save
-
-start the connection between the client and our broker using host:"demo.thingsboard.io", port:1883 and topic:"v1/devices/". 
-
-bash script: curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d 
-
-Check for import libs and import necessary libs.
-
-Payload is arbitary data with specific contents of the packages in JSON which is sent via terminal
+Edge to Cloud & cloud to run time forms the complete lifecycle, a request hits various checkpoints where claims have to be hardened for a zero trust, the project aimed to map the data flow from origin to internal vpc and various security controls.
+Network-level security – TLS/SSL, proper ports, firewall segmentation.
+Authentication & access control – tokens, rotating credentials, RBAC.
+Data integrity & confidentiality – payload encryption, HMAC signatures.
+Monitoring & logging – security libraries, alerting hooks.
+Defense-in-depth – rate limiting, retry/backoff, anomaly detection.

@@ -1,0 +1,25 @@
+"""
+======================== PLACEHOLDERS / CONFIGURATION ========================
+
+1. TLS CA Certificate Path:
+   tls_ca_cert = '/etc/ssl/certs/ca-certificates.crt'
+   --> Replace with the correct path to your CA bundle on your system.
+
+2. Access Tokens:
+   ACCESS_TOKEN1 / ACCESS_TOKEN2
+   --> Replace with real ThingsBoard device tokens or your MQTT broker tokens.
+
+3. MQTT Broker:
+   broker = 'demo.thingsboard.io'
+   --> Replace with your enterprise or local MQTT broker address.
+
+4. MQTT Topics:
+   'v1/devices/me/telemetry'
+   --> Replace with your telemetry topic structure, e.g., devices/<device_id>/telemetry.
+
+5. Client IDs:
+   client1 / client2
+   --> Ensure these are unique per client. You can generate dynamic IDs if needed.
+
+===============================================================================
+"""

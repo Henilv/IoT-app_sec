@@ -1,6 +1,6 @@
 # IoT: Application Security
 
-Here the goal is to create a sort of weather station that deploys various readings of sensors based on its selection and then deployed sensors through edge have vectors which need to be secured.
+Here the goal is to create a sort of weather station that deploys various readings of sensors based on its selection and then deployed sensors through edge have vectors which need to be secured. Layered security from edge to processing to map the vectors that need security.
 
 It is part of the course application project for MS in Cybersecurity at Syracuse University.
 
